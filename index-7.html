@@ -422,7 +422,7 @@
       letter-spacing: 0.08em;
     }
 
-    /* ─── SKILLS SECTION ───────────────────────── */
+    /* ─── SKILLS SECTION ────── */
     .skills-section {
       background: #070d20;
       padding: 4rem 2rem;
@@ -452,7 +452,7 @@
       letter-spacing: 0.06em;
     }
 
-    /* ─── CONTACT SECTION ──────────────────────── */
+    /* ─── CONTACT SECTION ──── */
     .contact-section {
       background: linear-gradient(160deg, #0a1430 0%, #0d1b3e 100%);
       padding: 4rem 2rem;
@@ -493,9 +493,9 @@
 </head>
 <body>
 
-<!-- ═══════════════════════════════════════════ -->
-<!--  HOME PAGE                                  -->
-<!-- ═══════════════════════════════════════════ -->
+
+<!--  HOME PAGE  -->
+
 <div id="home" class="page active">
 
   <!-- HERO -->
@@ -739,9 +739,9 @@
 </div><!-- end #home -->
 
 
-<!-- ═══════════════════════════════════════════ -->
-<!--  PROJECT DETAIL PAGE                        -->
-<!-- ═══════════════════════════════════════════ -->
+
+<!--  PROJECT DETAIL PAGE  -->
+
 <div id="project-detail" class="page">
   <div class="detail-nav">
     <button class="back-btn" onclick="goBack()">← Back</button>
@@ -775,33 +775,33 @@
 <!--  JAVASCRIPT                                  -->
 <!-- ═══════════════════════════════════════════ -->
 <script>
-  // ── Project data — edit these! ────────────────
+  // ── Project data
   const projects = [
     {
       title: "Hotel Management System",
       tags: ["Java", "JSP", "Servlets", "HTML/CSS"],
-      description: "A Java JSP web application for hotel administration with an admin dashboard for managing rooms, bookings, customers, payments, and reports. Includes admin login/signup, room and booking lists with edit/delete actions, customer management, payment records, and a reports page with hotel performance metrics. Deployed on Apache Tomcat.",
+      description: "A Java JSP web application for hotel administration with an admin dashboard for managing rooms, bookings, customers, payments, and reports. Includes admin login/signup, room and booking lists with edit/delete actions, customer management, payment records and a reports page with hotel performance metrics. Deployed on Apache Tomcat.",
       videoSrc: "https://drive.google.com/file/d/1ClEwy_qsXpWr1GCHSdYvxug6GLxD_Gm4/preview",
       github: "https://github.com/Binithiiii/Hotel-Management-System"
     },
     {
       title: "Banking Management System",
       tags: ["Java 21", "Spring Boot", "MySQL", "JWT", "Spring Security"],
-      description: "A Spring Boot web application for bank employees to manage day-to-day banking operations through a secure admin dashboard. Supports three roles — Admin, Manager, and Teller — each with different access levels. Features JWT authentication, account lockout after 3 failed login attempts, customer account management, transactions, bill payments, and loan request processing.",
+      description: "A Spring Boot web application for bank employees to manage day-to-day banking operations through a secure admin dashboard. Supports three roles: Admin, Manager and Teller each with different access levels. Features JWT authentication, account lockout after 3 failed login attempts, customer account management, transactions, bill payments and loan request processing.",
       videoSrc: "https://drive.google.com/file/d/1770DiyLsxec2pU8avXNsiACyNlt2i5iS/preview",
       github: "https://github.com/Binithiiii/Banking-System"
     },
     {
       title: "Marine Guard — Coral Health Monitoring",
       tags: ["Spring Boot", "React", "MongoDB", "JWT", "CNN / ONNX", "Vite"],
-      description: "A coral health monitoring platform that uses AI to detect coral bleaching and assess severity levels through a CNN model trained on coral images. Combines a Java Spring Boot backend with MongoDB and JWT security, and a React + Vite frontend with Redux and Axios. Supports user authentication, role-based access for Admin, Citizen Diver, and Scientist/NGO Staff, observation tracking, report submission, library resources, coral case handling, and alert management.",
+      description: "A coral health monitoring platform that uses AI to detect coral bleaching and assess severity levels through a CNN model trained on coral images. Combines a Java Spring Boot backend with MongoDB and JWT security, and a React + Vite frontend with Redux and Axios. Supports user authentication, role-based access for Admin, Citizen Diver, and Scientist/NGO Staff, observation tracking, report submission, library resources, coral case handling and alert management.",
       videoSrc: "https://drive.google.com/file/d/1UM9UFWNrgrksEWxWa98l0hfR5bub8DVt/preview",
       github: "https://github.com/Binithiiii/Coral-Health-Monitoring-System"
     },
     {
       title: "Grocery Management System",
       tags: ["React Native", "Expo", "Node.js", "MongoDB Atlas", "Stripe", "JWT"],
-      description: "A full-stack mobile web application connecting grocery store admins with customers. Admins manage stores, products, orders, payments, delivery tracking, and support tickets from a dedicated dashboard. Customers can browse stores, add items to cart, place orders, choose a payment method (card, bank transfer, or cash on delivery), track deliveries in real time, and raise support tickets. Built with React Native + Expo, Node.js/Express, and MongoDB Atlas.",
+      description: "A full-stack mobile web application connecting grocery store admins with customers. Admins manage stores, products, orders, payments, delivery tracking, and support tickets from a dedicated dashboard. Customers can browse stores, add items to cart, place orders, choose a payment method (card, bank transfer, or cash on delivery), track deliveries in real time and raise support tickets. Built with React Native + Expo, Node.js/Express, and MongoDB Atlas.",
       videoSrc: "https://drive.google.com/file/d/1gzYMAg8_tPw9yjGJCIljPUovXwWs0mJ-/preview",
       github: "https://github.com/Binithiiii/Grocery-Management-System"
     }
@@ -822,7 +822,7 @@
     showPage('home');
   }
 
-  // ── Open a project detail ─────────────────────
+  // ── Open a project detail ──
   function openProject(index) {
     const p = projects[index];
 
